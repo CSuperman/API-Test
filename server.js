@@ -1,6 +1,7 @@
 require('dotenv').config()
 
 const mongoose = require('mongoose')
+const axios = require('axios')
 const express = require('express')
 const app = express()
 
